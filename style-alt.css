@@ -1,14 +1,22 @@
 body {background-color: #E6E6FA;
-    color: #191970;}
-
+    color: #191970;
+	font-family: "Goudy Bookletter 1911", sans-serif;
+	background-image: url(brown-grunge.jpg);}
 
 h1{background-color: #1E90FF;
-    color: #000000;}
+    color: #000000;
+	font-family: "Palatino Linotype",serif; }
+
 h2{background-color:#6495ED;
-color: #000000
-}
+	color: #000000;
+	font-family: "Georgia",serif; }
 
 #content{color:#B0171F;}
 
+ol{list-style-type: upper-latin;}
 
 .Hey{color:#1E90FF;}
+p{background-color: #ffffff}
+
+footer{font-size: .80em;
+	font-style: italic}

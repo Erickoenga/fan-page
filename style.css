@@ -1,14 +1,19 @@
-body {background-color: #E6E6FA;
-    color: #191970;}
+body {background-color: #FFB6C1;
+    color: #191970;
+	font-family: "Gill Sans Extrabold", sans-serif;}
 
 
 h1{background-color: #1E90FF;
-    color: #000000;}
+    color: #000000;
+	font-family: font-family: "Big Caslon",serif;}
+
 h2{background-color:#6495ED;
-color: #000000
-}
+	color: #000000;
+	font-family:"Book Antiqua",serif; }
 
 #content{color:#B0171F;}
 
+ol{list-style-type: decimal-leading-zero}
 
 .Hey{color:#1E90FF;}
+footer{font-size: 15px}
