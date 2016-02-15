@@ -1,19 +1,52 @@
-body {background-color: #FFB6C1;
+html {
+	margin:2px;
+	padding:2px;
+	background: #ffb6c1;
+}
+body {
+    background-color: #FFB6C1;
     color: #191970;
-	font-family: "Gill Sans Extrabold", sans-serif;}
+	font-family: "Gill Sans Extrabold", sans-serif;
+}
+h2{
+    text-transform: uppercase;
+}
+p{
+    text-indent: 50px;}
 
-
-h1{background-color: #1E90FF;
+h1{ 
+	font-family:"Big Caslon",serif;
+    background-color: #CDC8B1;
+    background-image: url(blue.png);
     color: #000000;
-	font-family: font-family: "Big Caslon",serif;}
+    border: 2px solid;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    text-shadow: 2px 2px 2px #7171C6;
+	
+}
 
-h2{background-color:#6495ED;
+h2{
+    background-color:#6495ED;
 	color: #000000;
-	font-family:"Book Antiqua",serif; }
+	font-family:"Book Antiqua",serif;
+}
 
-#content{color:#B0171F;}
+#content{
+    background-image: linear-gradient(to bottom,#ffffff, #da70d6);
+    color:#B0171F;
+}
 
-ol{list-style-type: decimal-leading-zero}
+ol{
+    list-style-type: decimal-leading-zero
+}
 
-.Hey{color:#1E90FF;}
-footer{font-size: 15px}
+.Hey{
+    color:#1E90FF;
+}
+footer{
+    font-size: 15px
+}
