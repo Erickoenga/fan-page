@@ -4,6 +4,7 @@ html {
 	background: #ffb6c1;
 }
 body {
+    padding-top: 10px;
     background-color: #FFB6C1;
     color: #191970;
 	font-family: "Gill Sans Extrabold", sans-serif;
@@ -14,19 +15,36 @@ h2{
 p{
     text-indent: 50px;}
 
-h1{ 
+header{
+    width: 100%;
+}
+
+header h1{ 
 	font-family:"Big Caslon",serif;
     background-color: #CDC8B1;
     background-image: url(blue.png);
     color: #000000;
     border: 2px solid;
-    border-top-left-radius:10px;
-    border-top-right-radius:10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
     text-align: center;
-    text-shadow: 2px 2px 2px #7171C6;
+    position: relative;
 	
+}
+nav a{
+    text-decoration: none;
+    display: block;
+    color: #0000ff;
+}
+nav ul{
+    float: left;
+    width: 20;
+    margin-right: 20;
+}
+
+main{
+    float: right;
+    margin-left: 10px;
+	width:80%;
+    text-align:inherit;
 }
 
 h2{
@@ -48,5 +66,11 @@ ol{
     color:#1E90FF;
 }
 footer{
-    font-size: 15px
+    clear:both !important;
+    text-align: center;
+    font-size: 15px;
+	width:940px;
+	height: 100px;
+	padding: 10px;
+
 }
