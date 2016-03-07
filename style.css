@@ -1,54 +1,39 @@
 html {
-	margin:2px;
-	padding:2px;
-	background: #ffb6c1;
+	margin:auto;
+	padding:auto;
 }
 body {
-    padding-top: 10px;
+    padding-top:2em;
     background-color: #FFB6C1;
     color: #191970;
 	font-family: "Gill Sans Extrabold", sans-serif;
 }
-h2{
-    text-transform: uppercase;
-}
-p{
-    text-indent: 50px;}
+div p{
+    text-indent: 1em;}
 
-header{
-    width: 100%;
+div h1{ font-size: 100%;
+	text-shadow: none;
+	font-size: 2em;
+	padding-top: 1em;
+	text-transform: uppercase;
+	display: block;
 }
 
-header h1{ 
-	font-family:"Big Caslon",serif;
-    background-color: #CDC8B1;
-    background-image: url(blue.png);
-    color: #000000;
-    border: 2px solid;
-    text-align: center;
-    position: relative;
-	
-}
-nav a{
-    text-decoration: none;
+div ul{
+    padding: 0.5em 0;
     display: block;
-    color: #0000ff;
 }
-nav ul{
-    float: left;
-    width: 20;
-    margin-right: 20;
-}
-
-main{
-    float: right;
-    margin-left: 10px;
-	width:80%;
-    text-align:inherit;
+#eset{
+	position: relative;
+	background-image: url(blue.png);
+	width: 100%;
+	height: 100%;
+	--background-size: 100% 100%;
+	text-align: center;
+	color: #ffffff;
 }
 
-h2{
-    background-color:#6495ED;
+div h2{
 	color: #000000;
 	font-family:"Book Antiqua",serif;
 }
@@ -57,20 +42,18 @@ h2{
     background-image: linear-gradient(to bottom,#ffffff, #da70d6);
     color:#B0171F;
 }
-
+.Hey{
+    color:#1E90FF;
+}
 ol{
     list-style-type: decimal-leading-zero
 }
 
-.Hey{
-    color:#1E90FF;
-}
-footer{
-    clear:both !important;
-    text-align: center;
-    font-size: 15px;
+div #diva{
+    font-size: 1em;
 	width:940px;
-	height: 100px;
-	padding: 10px;
+	height: 20%;
+	padding: 2%;
+	text-align: center;
 
 }
